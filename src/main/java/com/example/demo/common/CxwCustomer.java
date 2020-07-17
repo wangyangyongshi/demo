@@ -47,7 +47,7 @@ public class CxwCustomer {
 
             @Override
             public void handleException(Throwable e, BaseResult result) {
-                result.setErrorDesc ("程序汪查询异常");
+//                result.setErrorDesc ("程序汪查询异常");
             }
         });
         return null;
